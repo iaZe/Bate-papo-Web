@@ -15,18 +15,7 @@ export default ({onReceive}) => {
 
     return(
         <div className="login">
-        <div class="u-container-layout u-container-layout-1">
-            <h1 class="u-text u-text-1">Bate-papo Web</h1>
-            <h3 class="u-text u-text-2">Aviso importante</h3>
-            <h3 class="u-text u-text-3">Para começar basta clicar para fazer login</h3>
-            <p class="u-text u-text-4">Este é um projeto de estudo, para a criação de conteúdo e aprendizado das tecnologias nele implementada, gostaria ainda de salientar que nenhum dos dados será salvo, ou exposto.</p>
-            <a href="" class="u-border-none u-btn u-btn-round u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-palette-4-dark-1 u-radius-5 u-btn-1">Fazer login</a>
-            <p class="u-text u-text-5">Foi utilizada a plataforma firebase para implementação do OAuth2 (Autenticação de conta). Logo, não temos acesso a dados como login e senha, apenas captamos dados&nbsp;<span style="font-weight: 700;"> necessários e públicos<span style="font-weight: 400;"> , que são: seu nome e imagem de perfil.&nbsp; Quanto ao armazenamento de dados, são feitos atráves do firebase store. Todos os dados serão deletados após o termino do estudo, junto ao desligamento da plataforma</span>
-            </span>
-            </p>
-            <p class="u-text u-text-6">As tecnologias aqui utilizadas foram: Firebase, Node.JS, CSS e React</p>
-      </div>
-            <button onClick={handleLogin}>Fazer Login</button>
+            <button className="button" onClick={handleLogin}>Fazer Login</button>
         </div>
     );
 }
