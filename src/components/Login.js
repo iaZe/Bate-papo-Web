@@ -15,7 +15,7 @@ export default ({onReceive}) => {
 
     return(
         <div className="login">
-            <button className="button" onClick={handleLogin}>Fazer Login</button>
+            <button onClick={handleLogin}>Fazer Login</button>
         </div>
     );
 }
